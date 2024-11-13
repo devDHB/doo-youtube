@@ -3,10 +3,10 @@ import { Routes, Route, BrowserRouter } from "react-router-dom";
 import Home from "./pages/Home";
 import Today from "./pages/Today";
 import Developer from "./pages/Developer";
-import Webd from "./pages/Webd";
+import Webstudy from "./pages/Webstudy";
 import Website from "./pages/Website";
 import Gsap from "./pages/Gsap";
-import Port from "./pages/Port";
+import Frontend from "./pages/Frontend";
 import Youtube from "./pages/Youtube";
 import Channel from "./pages/Channel";
 import Video from "./pages/Video";
@@ -25,10 +25,10 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="/today" element={<Today />} />
           <Route path="/developer" element={<Developer />} />
-          <Route path="/webd" element={<Webd />} />
+          <Route path="/webd" element={<Webstudy />} />
           <Route path="/website" element={<Website />} />
           <Route path="/gsap" element={<Gsap />} />
-          <Route path="/port" element={<Port />} />
+          <Route path="/port" element={<Frontend />} />
           <Route path="/youtube" element={<Youtube />} />
           <Route path="/channel/:channelID" element={<Channel />} />
           <Route path="/video/:videoID" element={<Video />} />
