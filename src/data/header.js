@@ -29,9 +29,9 @@ export const headerMenus = [
     src: "/developer",
   },
   {
-    title: "Web Dev",
+    title: "Web Study",
     icon: <CiBoxes />,
-    src: "/webd",
+    src: "/webstudy",
   },
   {
     title: "Website",
@@ -39,14 +39,14 @@ export const headerMenus = [
     src: "/website",
   },
   {
-    title: "GSAP Parallax",
+    title: "Back End",
     icon: <CiCoffeeCup />,
-    src: "/gsap",
+    src: "/backend",
   },
   {
-    title: "Portfolio",
+    title: "Front End",
     icon: <CiDumbbell />,
-    src: "/port",
+    src: "/frontend",
   },
   {
     title: "Youtube Clone",
@@ -57,8 +57,8 @@ export const headerMenus = [
 
 export const searchKeyword = [
   {
-    title: "webstoryboy",
-    src: "/search/webstoryboy",
+    title: "dev doo",
+    src: "/search/devdoo",
   },
   {
     title: "HTML",
@@ -98,29 +98,29 @@ export const searchKeyword = [
   },
   {
     title: "music",
-    src: "/search/NewJeans",
+    src: "/search/bts",
   },
 ];
 
 export const snsLink = [
   {
     title: "github",
-    url: "https://github.com/webstoryboy",
+    url: "https://github.com/devDHB",
     icon: <AiFillGithub />,
   },
   {
     title: "youtube",
-    url: "https://www.youtube.com/webstoryboy",
+    url: "https://github.com/devDHB",
     icon: <AiFillYoutube />,
   },
   {
     title: "codepen",
-    url: "https://codepen.io/webstoryboy",
+    url: "https://github.com/devDHB",
     icon: <AiOutlineCodepen />,
   },
   {
     title: "instagram",
-    url: "https://www.instagram.com/webstoryboy",
+    url: "https://github.com/devDHB",
     icon: <AiOutlineInstagram />,
   },
 ];

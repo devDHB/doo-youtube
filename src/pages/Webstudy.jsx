@@ -1,7 +1,12 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 const Webstudy = () => {
-  return <div>Webstudy</div>;
+  return (
+    <Main title="Webstudy">
+      Webstudy
+    </Main>
+  )
 };
 
 export default Webstudy;

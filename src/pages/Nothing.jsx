@@ -1,7 +1,12 @@
 import React from "react";
+import Main from "../components/section/Main";
 
 const Nothing = () => {
-  return <div>Nothing</div>;
+  return (
+    <Main title="Nothing">
+      Nothing
+    </Main>
+  )
 };
 
 export default Nothing;
